@@ -16,7 +16,7 @@
   "description": "",
   "repository": {
     "type": "git",
-    "url": "https://github.com/f440/npm-test"
+    "url": "git+https://github.com/f440/npm-test.git"
   },
   "dependencies": {
     "typescript": "^5.4.5"
