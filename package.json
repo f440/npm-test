@@ -1,6 +1,6 @@
 {
   "name": "@f440/npm-test",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "main": "dist/index.js",
   "types": "dist/index.d.js",
   "scripts": {
@@ -13,6 +13,10 @@
   "author": "",
   "license": "ISC",
   "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/f440/npm-test"
+  },
   "dependencies": {
     "typescript": "^5.4.5"
   },
