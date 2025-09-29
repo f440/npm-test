@@ -37,4 +37,5 @@ jobs:
         run: pnpm run build
 
       - name: Publish package
-        run: pnpm publish --no-git-checks
+        # run: pnpm publish --no-git-checks
+        run: npm publish
