@@ -19,9 +19,9 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
-          registry-url: 'https://registry.npmjs.org'
-          scope: '@f440'
+          node-version: "20"
+          registry-url: "https://registry.npmjs.org"
+          scope: "@f440"
 
       - name: Set up pnpm
         uses: pnpm/action-setup@v4
@@ -38,6 +38,3 @@ jobs:
 
       - name: Publish package
         run: pnpm publish --no-git-checks
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-          NPM_CONFIG_PROVENANCE: 'true'
